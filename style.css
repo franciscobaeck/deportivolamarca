@@ -36,9 +36,6 @@
 
 }
 
-
-
-
 .header_titulo { 
     grid-area: 2 / 2 / 3 / 3; 
 }
@@ -101,3 +98,31 @@ li a {
     text-decoration: none;
 }
 
+.titulos{
+    background-color: rgb(13, 13, 103);
+    display: flex;
+    justify-content: center;
+    font-family:Montserrat,sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.noticias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .noticias_titulo { grid-area: 1 / 1 / 2 / 2; }
+    .noticias_texto { grid-area: 2 / 1 / 3 / 2; }
+    .noticias_verMas { grid-area: 3 / 1 / 4 / 2; }
+    .noticias_imagen { grid-area: 1 / 2 / 4 / 3; }
+
+    .noticias_imagen_foto{
+        grid-area: 1 / 2 / 4 / 3;
+        width:60%;
+        height:auto;
+
+    }
