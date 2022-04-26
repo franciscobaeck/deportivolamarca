@@ -82,50 +82,99 @@
             </h1>
 
             <section class="noticias"> 
-                <h2>
+                <h2 class="noticias_titulo">
                     Noticia1
                 </h2>
-                <img src="imagenes/noticiasTemplate.jpeg" width="50" height="50" class="noticias_imagen_foto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, et ex! Quas facilis</p>
-            </section>   
-
-                <h2>
+                
+                <section class= "noticias_imagen">
+                    <img src="imagenes/noticiasTemplate.jpeg" class="noticias_imagen_foto" >
+                </section>
+                
+                <section class="noticias_texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, et ex! Quas facilis</p>
+                </section>
+            </section>
+              
+            <section class="noticias"> 
+                <h2 class="noticias_titulo">
                     Noticia2
                 </h2>
-                <a href="https://www.instagram.com/depor_marca/"><img src="imagenes/noticiasTemplate.jpeg" width="50" height="50"></a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, et ex! Quas facilis</p>
+
+                <section class= "noticias_imagen">
+                <a href="https://www.instagram.com/depor_marca/"><img src="imagenes/noticiasTemplate.jpeg" class="noticias_imagen_foto"></a>
+                </section>
+                
+                <section class="noticias_texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, et ex! Quas facilis</p>
+                </section>
         
-                <h2>
-                    Noticia3
+            </section>
+
+
+                <section class="noticias"> 
+                <h2 class="noticias_titulo">
+                    Noticia1
                 </h2>
-                <a href="https://www.instagram.com/depor_marca/"><img src="imagenes/noticiasTemplate.jpeg" width="50" height="50"></a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, et ex! Quas facilis</p>
-        </section>
+                
+                <section class= "noticias_imagen">
+                    <img src="imagenes/noticiasTemplate.jpeg" class="noticias_imagen_foto" >
+                </section>
+                
+                <section class="noticias_texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, et ex! Quas facilis</p>
+                </section>
+            </section>
 
         <section> <!-- Asociate al depor -->
+            
+            <div>
             <h2>Asociate al Depor</h2>
+            </div>
+            
+            <div class="formDeContacto">
 
-            <label for="nombreYapellido">Nombre y apellido</label>
-            <input type="text" name="nombreYapellido" id="nombreYapellido">
-            
-            <label for="email">Email</label>
-            <input type="text" name="email" id="email">
-            
-            
-            
-            <label for="socio">Tipo de socio</label>
-            <form name="socio" id="socio">
-                <select>
-                    <option selected="selected"></option>
-                    <option>Pleno</option>
-                    <option>Deportivo</option>
-                </select>
-            </form>
+                <form action="">
+                    <p>
+                        <label for="fullname">Nombre y Apellido</label>
+                        <input type="text" name="nommbreCompleto" id="fullname">
+                    </p>
+
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="text" name="emailcontacto" id="email">
+                    </p>
+
+                    <p>
+                        <label for="">Tipo de socio</label>
+                        <form action="">
+                            <select name="tipoDesocio" id="">
+                                <option value="">Seleccionar</option>
+                                <option value="">Deportivo</option>
+                                <option value="">Pleno</option>
+                            </select>
+                        </form>
+                    </p>
+
+                    <p>
+                        <button type="submit">
+                            Enviar
+                        </button>
+                    </p>
+
+
+                </form>
+
+
+            </div>
+
+
+
         </section>
-
         <footer class="footer">
-            <section>
+            <section class="footer all">
+                <p>
                 Deportivo La Marca all rights reserved
+                </p>
             </section>
         </footer>
  
