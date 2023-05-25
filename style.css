@@ -63,6 +63,7 @@
     margin-right: 10;
     
 }
+
 .footer{
     color: white;
     background-color: rgb(13, 13, 103);
@@ -106,7 +107,7 @@ li a {
 
 .titulos{
     background-color: rgb(13, 13, 103);
-    display: flex;
+    display: flex; 
     justify-content: center;
     font-family:Montserrat,sans-serif;
     font-weight: bold;
